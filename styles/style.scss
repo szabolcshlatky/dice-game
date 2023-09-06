@@ -1,0 +1,47 @@
+@use 'reset';
+
+#index {
+  background-color: #393E46;
+
+  .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+    header {
+      margin: 5em;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+
+      .logo {
+        width: 5em;
+      }
+    }
+
+    h1 {
+      margin: 30px;
+      font-family: cursive;
+      text-shadow: 5px 0 #232931;
+      font-size: 8rem;
+      color: #4ECCA3;
+    }
+
+    .dice {
+      text-align: center;
+      display: inline-block;
+    }
+
+    figcaption {
+      font-size: 2rem;
+      color: #4ECCA3;
+      font-family: cursive;
+    }
+    
+    img {
+      width: 80%;
+    }
+  }
+}
